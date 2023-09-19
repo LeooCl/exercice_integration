@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Series à voir">
+	<title>Template module 1</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <a href="index.html"><i class="fa-solid fa-video"></i></a>
+    <nav>
+        <ul class="container">
+            <li><a href="#series">Meilleures séries</a></li>
+            <li><a href="#contact">Me contacter</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Séries TV</h1>
+    <section id="series" class="container">
+        <h2>Les séries les mieux notés de tous les temps</h2>
+        <article>
+            <h3>Breaking Bad</h3>
+            <img class="img-left" src="https://fr.web.img3.acsta.net/c_310_420/pictures/19/06/18/12/11/3956503.jpg" alt="Affiche Breaking Bad">
+            <p>Avec Bryan Cranston, Aaron Paul, Anna Gunn</p>
+            <p>Atteint d'un cancer incurable, le professeur de chimie Walter White décide de tout mettre en oeuvre pour mettre définitivement à l'abri sa famille. Sa solution ? Fabriquer et vendre du crystal meth. Il fait appel à Jesse, un de ses anciens élèves devenu un petit dealer de seconde zone...</p>
+            <div class="clear"></div>        
+        </article>
+        <hr>
+        <article>
+            <h3>Game of Thrones</h3>
+            <img class="img-left" src="https://fr.web.img3.acsta.net/c_310_420/pictures/23/01/03/14/13/0717778.jpg" alt="Affiche Game of Thrones">
+            <p>Avec Kit Harington, Emilia Clarke, Lena Headey</p>
+            <p>Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de Fer, le symbole du pouvoir absolu.</p>
+            <div class="clear"></div>
+        </article>
+        <hr>
+        <article>
+            <h3>Chernobyl</h3>
+            <img class="img-left" src="https://fr.web.img2.acsta.net/c_310_420/pictures/23/01/03/14/05/3165194.jpg" alt="Affiche Chernobyl">
+            <p>Avec Jared Harris, Stellan Skarsgård, Paul Ritter</p>
+            <p>26 avril 1986, l'histoire vraie de la pire catastrophe causée par l'homme et de ceux qui ont sacrifié leur vie pour sauver l'Europe du drame...</p>
+            <div class="clear"></div>
+        </article>
+        <hr>
+        <article>
+            <h3>Arcane</h3>
+            <img class="img-left" src="https://fr.web.img5.acsta.net/c_310_420/pictures/21/11/02/11/12/2878509.jpg" alt="Affiche Arcane">
+            <p>Avec Hailee Steinfeld, Ella Purnell, Kevin Alejandro</p>
+            <p>Série animée qui se déroule dans l'univers de la franchise de jeu vidéo "League of Legends". Intitulée "Arcane", celle-ci raconte les histoires originelles de deux champions emblématiques de la League et le pouvoir qui finit par les déchirer.</p>
+            <div class="clear"></div>
+        </article>
+        <hr>
+        <article>
+            <h3>Peaky Blinders</h3>
+            <img class="img-left" src="https://fr.web.img6.acsta.net/c_310_420/pictures/22/06/07/11/57/5231272.jpg" alt="Affiche Peaky Blinders">
+            <p>Avec Cillian Murphy, Natasha O'Keeffe, Paul Anderson</p>
+            <p>En 1919, la révolte gronde dans le Birmingham de l'après-Guerre. Les "Peaky Blinders", dont plusieurs membres sont issus de la famille Shelby, comptent parmi les éléments les plus dangereux. Campbell, un impitoyable chef de la police débarqué de Belfast, a pour mission de nettoyer la ville.</p>
+            <div class="clear"></div>
+        </article>
+        <hr>
+    </section>
+    <section id="contact" class="container">
+        <article>
+            <h2>Me contacter</h2>
+            <adress>
+                <i class="fa-solid fa-location-pin"></i> Mon adresse<br>
+				<i class="fa-solid fa-envelope"></i> <a href="mailto:clouetleo@gmail.com">clouetleo@gmail.com</a><br>
+				<i class="fa-solid fa-mobile"></i> <a href="tel:">Mon numéro de télephone</a>
+            </adress>
+            <div id="contact-form">
+                <h3>Formulaire de contact</h3>
+                <form action="form.html" method="post">
+                    <div class="flex">
+                        <div class="col">
+                            <input type="text" id="lastname" placeholder="Votre nom">
+                            <input type="email" id="email" placeholder="Votre email">
+                            <input type="tel" id="phone" placeholder="Votre numéro de téléphone">
+                        </div>
+                        <div class="col">
+                            <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                        </div>
+                    </div>
+                    <div class="toolbar">
+                        <button type="submit" class="button">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </section>
+</main>
+</body>
+</html>
